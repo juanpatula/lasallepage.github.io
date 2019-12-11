@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.encabezado {
+    background-image: url("../imagen/encabezado-actividades.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+   height: 300px;   
+}
+.tamanio {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.flex-container {
+   align-items: stretch;    
+   display: flex;
+   justify-content: space-between;
+}
+nav {
+    margin-top: -15px;
+}
+

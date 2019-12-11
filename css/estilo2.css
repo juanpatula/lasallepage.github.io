@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+.encabezado {
+    background-image: url("../imagen/nuevo.jpg");
+    background-size: 100% 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+   height: 300px;   
+}
+.tamanio {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.flex-container {
+    align-items: stretch;    
+       display: flex;
+    justify-content: space-between;
+ }
+ nav {
+     margin-top: -15px;
+ }
+.row {
+    background-color: #f1f1f1;
+    margin: 0px;
+    padding: 15px;
+}
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
